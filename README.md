@@ -26,6 +26,22 @@ A continuacion se describe la API REST
 
 ## Obtener la tarifa para un producto de una cadena en una fecha dada
 
+### CURL Request
+
+`curl -X GET http://localhost:8080/api/prices/1/35455/2020-06-14%2010:00:00`
+
+### Response
+```json
+{
+    "productId": 35455,
+    "brandId": 1,
+    "priceList": 1,
+    "startDate": "2020-06-14T00:00:00Z",
+    "endDate": "2020-12-31T23:59:59Z",
+    "price": 35.5
+}
+```
+
 ### Request
 
 `GET /api/prices/1/35455/2020-06-16 21:00:00`
