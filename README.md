@@ -24,7 +24,7 @@ _Construir una aplicación/servicio en SpringBoot que provea una end point rest 
 
 A continuacion se describe la API REST
 
-## Get list of Things
+## Obtener la tarifa para un producto de una cadena en una fecha dada
 
 ### Request
 
